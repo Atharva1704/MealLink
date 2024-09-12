@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  font-family: "Ubuntu", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen",
+    "Poppins", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(
+    108.4deg,
+    rgba(220, 194, 255, 1) 6.9%,
+    rgba(185, 223, 248, 1) 86.5%
+  );
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

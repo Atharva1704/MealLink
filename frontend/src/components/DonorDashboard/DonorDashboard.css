@@ -1,0 +1,117 @@
+.entireDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.titles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3rem;
+
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  /* width: 20rem; */
+  /* margin-left: 15rem; */
+  /* margin-right: 20rem; */
+  margin-top: 5rem;
+  /* margin: 0 -0.4em; */
+  padding: 0.1em 0.4em;
+  border-radius: 0.8em 0.3em;
+  background: transparent;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 225, 0, 0.1),
+    rgba(255, 225, 0, 0.7) 4%,
+    rgba(255, 225, 0, 0.3)
+  );
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+.btnrr {
+  margin-bottom: 0rem;
+}
+
+.cardHolder {
+  display: flex;
+  flex-direction: column;
+  /* margin-right: 2rem; */
+  /* align-items: center; */
+  /* justify-content: space-around; */
+}
+
+.dataCard {
+  /* background- color: #f0f0f0; */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  /* margin-right: 20px; */
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.CardDate {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.CardAddress {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.CardDescription {
+  font-size: 14px;
+}
+
+.btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.BeneTitle {
+  margin: 0 -0.4em;
+  padding: 0.1em 0.4em;
+  border-radius: 0.8em 0.3em;
+  background: transparent;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 225, 0, 0.1),
+    rgba(255, 225, 0, 0.7) 4%,
+    rgba(255, 225, 0, 0.3)
+  );
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+.Donordiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* padding-left: 20rem; */
+  margin-left: 2rem;
+}
